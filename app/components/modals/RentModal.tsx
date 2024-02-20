@@ -1719,19 +1719,21 @@ const RentModal = () => {
 
         <hr />
 
-        <Select
-          id="type"
-          options={selects}
-          value={type}
-          onChange={(value) => setCustomValue("type", value)}
-        />
+       <div className="pb-20 flex flex-col gap-8">
+          <Select
+            id="type"
+            options={selects}
+            value={type}
+            onChange={(value) => setCustomValue("type", value)}
+          />
 
-        <Select
-          id="location"
-          options={locationsOptions}
-          value={location}
-          onChange={(value) => setCustomValue("location", value)}
-        />
+          <Select
+            id="location"
+            options={locationsOptions}
+            value={location}
+            onChange={(value) => setCustomValue("location", value)}
+          />
+        </div>
       </div>
     );
   }
