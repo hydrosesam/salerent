@@ -1396,6 +1396,11 @@ const RentModal = () => {
       location: "Thoppumpady",
       pincode: 682005,
     },
+    
+    {
+      location: "Vyttila",
+      pincode: 682019,
+    },
   ];
 
   const locationsOptions = locations.map((location) => ({
