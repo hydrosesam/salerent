@@ -1380,6 +1380,10 @@ const locations: Location[] = [
     location: "Thoppumpady",
     pincode: 682005,
   },
+   {
+    location: "Vyttila",
+    pincode: 682019,
+  },
 ];
 
 const selects: Option[] = [
